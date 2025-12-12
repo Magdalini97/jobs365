@@ -1,0 +1,180 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: transparent;
+
+    .desktop {
+        display: flex;
+        align-items: center;
+
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-block: 35px;
+
+            .header-logo{
+                margin-bottom: 5px;
+            }
+
+            .navbar{
+                display: flex;
+                align-items: flex-end;
+                gap:40px;
+
+                a{
+                    padding-top: 5px;
+                    position: relative;
+
+                    &::after{
+                        content: "";
+                        left: 0;
+                        bottom: -6px;
+                        height: 5px;
+                        width: 0%;
+                        position: absolute;
+                        background:#7C74C7;
+                        transition: width 0.4s ease;
+                    }
+                }
+                a:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .desktop.sticky{
+        border-bottom: 1px solid black;
+        .menu{
+            padding-block: 20px;
+        }
+    }
+}
+
+header{
+    .mobile{
+       // padding-inline: 18px;
+        .menu{
+            padding-block: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 11;  //prepei gia to sidebar
+
+            .hamburger{
+                margin-top: 8px;
+                span{
+                    width:30px;
+                    height:2px;
+                    background:#3A337C;
+                    display: block;
+                    margin-top:8px;
+                    border-radius: 2px;
+                    transition: 0.4s ease;
+                }
+                &.active{
+                    span.bar1{
+                        transform: translate(5px,12px) rotate(-45deg);
+                    }
+                    span.bar2{
+                        opacity: 0;
+                    }
+                    span.bar3{
+                        transform: translate(5px,-8px) rotate(45deg);
+                    }
+                }
+            }
+        }
+        .sidebar{
+            position: fixed;
+            top:0;
+            left:0;
+            width: 100%;
+            height:100%;
+            background-color: #f9f8fc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-inline: 18px;
+            visibility:  hidden;
+            opacity:0;                 //stin arxi krivo
+            transition: visibility 0.5s ease, opacity 0.5s ease;
+
+
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap:30px;
+                margin-top: 115px;
+
+                a{
+                    font-size: 32px;
+                    line-height: 32px;
+                    font-weight: 400;
+                    padding-top:0;
+                    position: relative;
+
+                    &::after{
+                        content: "";
+                        left: 0;
+                        bottom: -6px;
+                        height: 5px;
+                        width: 0%;
+                        position: absolute;
+                        background:#7C74C7;
+                        transition: width 0.5s ease;
+                    }
+                }
+
+                a:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                }
+            }
+
+            .mobhead{
+                margin-top: 130px;
+                width: 100%;
+            }
+
+            .mobhead.transparent{
+                margin-top: 10px;
+            }
+
+        }
+        .sidebar.open{
+            visibility:  visible;
+            opacity:1;  //tora emfanizo
+        }
+
+    }
+}
+
+@media (min-width:993px) and (max-width:1210px){
+    header{
+        .desktop{
+            .menu{
+                .navbar {
+                    display: flex;
+                    gap:20px;
+                }
+
+                .header-buttons{
+                    .primary-btn{
+                        padding: 13px 22px;
+                    }
+                }
+            }
+        }
+    }
+}

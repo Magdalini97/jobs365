@@ -1,0 +1,147 @@
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #f9f8fc;
+}
+
+
+.container {
+    max-width: 1600px;
+    padding-inline: 70px;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color:unset;
+}
+button{
+    border: none;
+    background: transparent;
+}
+
+
+.page-title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    color: black;
+    font-style: bold;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    color: black;
+    font-style: bold;
+}
+
+.services-section-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    color: black;
+}
+
+span {
+    color: #3a337c;
+}
+
+.html-content {
+    font-size: 17px;
+    line-height: 27px;
+    color: #717178;
+    font-weight: 400;
+}
+
+.small-title {
+    text-decoration: none;
+    color: #7c74c7;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    line-height: 27px;
+}
+
+.medium-title {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #3a337c;
+}
+
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top:195px;
+    //flex: 0 0 790px;
+    position: relative;
+    max-width:665px;
+}
+
+.btns {
+    padding-top:50px;
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 992px) {
+    .container{
+        padding-inline: 18px;
+    }
+
+    .page-title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: black;
+    }
+
+    span {
+        color: #3a337c;
+    }
+
+    .html-content {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color:#717178;
+
+    }
+    .section-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: black;
+    }
+    .medium-title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color:#3A337C;
+    }
+    .small-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color:#7C74C7;
+    }
+
+    h4{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color:#3A337C;
+    }
+
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

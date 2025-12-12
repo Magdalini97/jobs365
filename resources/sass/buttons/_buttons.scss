@@ -1,0 +1,62 @@
+.primary-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A337C;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    padding: 18px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 28px;
+    width: fit-content;
+    min-width: 176px;
+
+    &.transparent{
+        color:#7C74C7;
+        background-color: white;
+    }
+}
+.primary-btn:hover{
+    background-color: #7C74C7;
+
+}
+
+
+
+
+
+
+
+.mobhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#7C74C7;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 18px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 28px;
+    width: fit-content;
+    &:hover{
+        background-color: #3A337C;
+    }
+
+    &.transparent{
+        background-color: white;
+        border: 1px solid #7C74C7;
+        color: #7C74C7;
+
+        &:hover{
+            background-color: #E9E7F4;
+        }
+    }
+}
