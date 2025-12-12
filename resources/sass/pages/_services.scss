@@ -27,21 +27,6 @@
             }
         }
 
-        /* .background {
-            display: block;
-            position: absolute;
-            left: 36%;
-            right: -45%;
-            top: -155%;
-            z-index: -1;
-        }
-
-        .background img {
-            flex: 1;
-            width: 100%;
-            height: auto;
-        }*/
-
         .background {
             /*display: block;
             position: absolute;
@@ -55,56 +40,52 @@
             top:-20px;
             right:0;
             width: max-content;
-
         }
 
         .background img {
-
             width: 100%;
             height: auto;
         }
-
-        @media(max-width:992px){
+    }
+    
+    @media(max-width:992px){
+        .hero{
             margin-top: 90px;
             position: relative;
             overflow: hidden;
-            padding-bottom: 75px;
+            padding-bottom: 55px;
 
-            .page-title {
-                min-width: 355px;
-                text-align: center;
-            }
-            .html-content{
-                margin-top: 15px;
-                max-width: 305px;
-                text-align: center;
-                margin-inline: auto;
-            }
-            .btns {
-                display: flex;
-                flex-direction: column;
-                margin-top: 45px;
-                padding:0;
+            .paragraph{
+                margin-top:90px;
+                .mobhead-btn{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 45px;
 
-                .primary-btn{
-                    width: 100%;
-                    max-width: 355px;
-                    margin-inline: auto;
-                    font-size: 15px;
-                    line-height: 16px;
-                    font-weight: 500;
-                    padding: 20px;
+                    .mobhead{
+                        width: 100%;
+                    }
 
-                    &.transparent{
+                    .transparent{
+                        background-color: transparent;
+                        width: 100%;
+                    }
+                    .transparent:hover{
                         background-color: white;
                     }
                 }
             }
-
+            .page-title {
+                max-width: 355px;
+            }
+            .html-content{
+                margin-top: 15px;
+                max-width: 440px;
+            }
             .background {
                 position: absolute;
-                top: -60%;
-                left: -88%;
+                top:50px;
+                left:60px;
                 z-index: -1;
                 width: 100%;
             }

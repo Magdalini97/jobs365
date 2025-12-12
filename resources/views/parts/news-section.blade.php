@@ -10,7 +10,7 @@
                                 4-Day Workweek
                             </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img class="d-lg-block" src="/images/bluearrow.png" alt="svg"></div>
+                                <div class="circle-btn"><img src="/images/bluearrow.png" alt="svg"></div>
                             </div>
                         </div>
                         <div class="html-content">
@@ -24,7 +24,7 @@
                                 4-Day Workweek
                             </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img class="d-lg-block" src="/images/bluearrow.png" alt="svg"></div>
+                                <div class="circle-btn"><img src="/images/bluearrow.png" alt="svg"></div>
                             </div>
                         </div>
                         <div class="html-content">
@@ -38,7 +38,7 @@
                                 4-Day Workweek
                             </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img class="d-lg-block" src="/images/bluearrow.png" alt="svg"></div>
+                                <div class="circle-btn"><img src="/images/bluearrow.png" alt="svg"></div>
                             </div>
                         </div>
                         <div class="html-content">
@@ -53,7 +53,7 @@
                                 4-Day Workweek
                             </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img class="d-lg-block" src="/images/bluearrow.png" alt="svg"></div>
+                                <div class="circle-btn"><img src="/images/bluearrow.png" alt="svg"></div>
                             </div>
                         </div>
                         <div class="html-content">

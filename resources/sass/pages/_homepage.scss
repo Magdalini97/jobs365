@@ -25,7 +25,6 @@
                     }
                 }
             }
-
         }
 
         .background {
@@ -104,7 +103,7 @@
         }
     }
 
-    @media (min-width: 520px) and (max-width:990px) {
+    @media (min-width: 520px) and (max-width:992px) {
         .hero{
             .paragraph{
                 .mobhead-btn {
@@ -353,7 +352,7 @@
             }
         }
     }
-    @media (min-width:700px) and (max-width:990px) {
+    @media (min-width:940px) and (max-width:992px) {
         .service-section{
             .swiper-wrapper {
                 display: flex;
@@ -366,11 +365,19 @@
         }
     }
 
-    @media (min-width:1000px) and (max-width:1300px) {
+    @media (min-width:993px) and (max-width:1200px) {
         .service-section{
             .col-lg-10{
                 margin-left:0 ;
                 width: unset;
+            }
+            .services{
+                display: flex;
+                flex-direction: row;
+                gap:50px;
+                .svg{
+                    display: none;
+                }
             }
         }
     }

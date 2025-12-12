@@ -56,38 +56,30 @@
         .click-info {
             position: relative;
             margin-top: 30px;
-        }
-
-        .circle-btn-blue img {
-            margin-top: 20px;
-            opacity: 0;
-            position: absolute;
-            left:55%;
-        }
-
-        .circle-btn {
             border: 1px solid #3a337c;
             min-width: 55px;
             height: 55px;
             border-radius: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             margin-right: 20px;
             transition: 0.3s ease;
             opacity: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .circle-btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
-        .click-info:hover .circle-btn {
+        .click-info:hover {
             opacity: 1;
             background-color: #3a337c;
             img{
-                filter:invert(1);
-            }
-        }
 
-        .click-info:hover .circle-btn-blue,
-        .click-info:hover .circle-btn-blue img {
-            opacity: 1;
+                filter: brightness(0) invert(1);
+            }
         }
 
         @media(max-width:992px){
@@ -131,30 +123,30 @@
             .click-info {
                 position: relative;
                 margin-top: 30px;
-                align-items: end;
-                display: flex;
-            }
-
-            .circle-btn{
-                min-width: 40px;
-                height: 40px;
-                background-color: #3A337C;
-                aspect-ratio: 1/1;
-                cursor: pointer;
+                border: 1px solid #3a337c;
+                min-width: 45px;
+                height: 45px;
+                border-radius: 100%;
+                margin-right: 20px;
+                transition: 0.3s ease;
+                opacity: 1;
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
-                img{
-                   // filter: invert(0);
+                .circle-btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
-
-            .click-info:hover .circle-btn {
-                background-color: transparent;
+            .click-info:hover {
+                opacity: 1;
+                background-color: #3a337c;
                 img{
                     filter: brightness(0) invert(1);
                 }
             }
         }
     }
+
