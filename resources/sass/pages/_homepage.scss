@@ -329,8 +329,9 @@
                 .small {
                     width: 35px;
                     height: 35px;
-                    top: 280px;
+                    top: 380px;
                     left: 15px;
+
                 }
                 .medium {
                     width: 46px;
@@ -365,7 +366,7 @@
         }
     }
 
-    @media (min-width:993px) and (max-width:1200px) {
+    @media (min-width:993px) and (max-width:1400px) {
         .service-section{
             .col-lg-10{
                 margin-left:0 ;
@@ -377,6 +378,15 @@
                 gap:50px;
                 .svg{
                     display: none;
+                }
+            }
+            .swiper-slide .recru-image{
+                .small{
+                    width: 35px;
+                    height: 35px;
+                    top: 380px;
+                    left: 15px;
+
                 }
             }
         }

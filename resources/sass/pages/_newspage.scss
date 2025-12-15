@@ -1,0 +1,135 @@
+.newspage{
+    padding-bottom: 190px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    .bhero {
+        padding-top: 190px;
+
+        .col-lg-10{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 0;
+        }
+
+        .page-title{
+            max-width:450px;
+        }
+
+        .element{
+            max-width:350px;
+        }
+
+        .circle-div {
+            border-radius: 100%;
+            width: 335px;
+            height: 335px;
+            background-color: #ebe9fb;
+            position: relative;
+        }
+
+        .circle-div div{
+            border: 1px solid #3a337c;
+            border-radius: 100%;
+            background-color: #3a337c;
+            position: absolute;
+        }
+
+        .circle-div .small {
+            width: 38px;
+            height: 38px;
+            top: 230px;
+            left: -50px;
+        }
+
+        .circle-div .medium {
+            width: 52px;
+            height: 52px;
+            top: 0;
+            left: 40px;
+        }
+
+        .circle-div .large {
+            width: 83px;
+            height: 83px;
+            bottom: 20px;
+            left: 250px;
+        }
+    }
+
+
+    .news{
+        margin-top: 95px;
+    }
+
+    @media (max-width: 992px){
+        padding-block: 0;
+        border-radius: 0;
+        .bhero{
+            .col-12{
+                display: flex;
+                position: relative;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .page-title{
+                z-index: 1;
+                max-width: 355px;
+
+            }
+            .element{
+                min-width: 200px;
+                z-index: 0;
+            }
+
+            .circle-div {
+                border-radius: 100%;
+                width: 203px;
+                height: 203px;
+                background-color: #ebe9fb;
+                position: relative;
+            }
+
+            .circle-div div{
+                border: 1px solid #3a337c;
+                border-radius: 100%;
+                background-color: #3a337c;
+                position: absolute;
+            }
+
+            .circle-div .small {
+                width: 23px;
+                height: 23px;
+                top: 170px;
+                left: -60px;
+            }
+
+            .circle-div .medium {
+                width: 32px;
+                height: 32px;
+                top: 0;
+                left: 20px;
+            }
+
+            .circle-div .large {
+                width: 50px;
+                height: 50px;
+                bottom: 0;
+                left: 150px;
+            }
+        }
+    }
+    @media (min-width: 993px) and (max-width:1010px){
+        .bhero{
+            .circle-div .small {
+                width: 38px;
+                height: 38px;
+                top: 260px;
+                left: -40px;
+            }
+        }
+    }
+}

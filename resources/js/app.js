@@ -1,7 +1,7 @@
 import Swiper from "swiper";
 import {Navigation} from "swiper/modules";
 import "swiper/css";
-//import Masonry from "masonry-layout";
+import Masonry from "masonry-layout";
 import AOS from "aos";
 
 
@@ -30,7 +30,7 @@ if (window.innerWidth >= DESKTOP_MIN) {
                 slidesPerView: 2,
                 spaceBetween: 10,
             },
-            
+
             992: {
                 slidesPerView: 4,
                 spaceBetween: 40,

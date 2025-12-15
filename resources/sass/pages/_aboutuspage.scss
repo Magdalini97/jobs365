@@ -1,0 +1,328 @@
+.aboutuspage{
+    .abhero {
+        padding-block: 100px;
+        position:relative;
+        //border:1px solid red;
+        .paragraph{
+            margin-top: 190px;
+
+            .page-title {
+                max-width: 375px;
+            }
+            .html-content{
+                margin-top: 20px;
+            }
+        }
+
+        .big-image {
+            img {
+                position: absolute;
+                top:150px;
+                right:-100px;
+                width: 770px;
+                //  height: 770px;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+                border-radius: 100%;
+            }
+
+            div{
+                border: 1px solid #7c74c7;
+                border-radius: 100%;
+                background-color: #7c74c7;
+                position: absolute;
+            }
+            .small {
+                width: 46px;
+                height: 46px;
+                top: 550px;
+                right: -125px;
+            }
+
+            .medium{
+                width: 74px;
+                height: 74px;
+                top: 130px;
+                right: 450px;
+            }
+
+            .large {
+                width: 112px;
+                height: 112px;
+                bottom:-200px;
+                right: 580px;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .abhero {
+            margin-top: 100px;
+
+            .paragraph{
+                order:2;
+                margin-top:100px;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .page-title {
+                max-width: 355px;
+            }
+
+            .html-content{
+                margin-top: 15px;
+                max-width: 305px;
+                text-align: center;
+            }
+
+            .big-image {
+                margin-top: 105px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position:relative;
+                min-width: 350px;
+                min-height: 350px;
+
+                img {
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    min-width: 350px;
+                    min-height: 350px;
+                    object-fit: cover;
+                    aspect-ratio: 1/1;
+                    border-radius: 100%;
+                }
+
+                div{
+                    border: 1px solid #7c74c7;
+                    border-radius: 100%;
+                    background-color: #7c74c7;
+                    position: absolute;
+                }
+                .small {
+                    width: 35px;
+                    height: 35px;
+                    top: 20px;
+                    left: 40px;
+                }
+
+                .medium{
+                    width: 60px;
+                    height: 60px;
+                    top: 290px;
+                    left: 40px;
+                }
+                .large{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .aboutus-bg-pink {
+        background-color: #ebe9fb;
+        padding-block: 120px;
+
+        .col-lg-5{
+            padding: 0;
+
+            .about{
+                border-radius: 25px;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: auto;
+                background-color: #ebe9fb;
+            }
+        }
+
+        .col-lg-6{
+            padding: 0;
+        }
+
+        .aboutus-content {
+            display: flex;
+            flex-direction: column;
+            min-width: 665px;
+
+            .section-title {
+                margin-top: 10px;
+            }
+
+            .html-content p{
+                margin-top: 20px;
+                max-width: 665px;
+                text-align: left;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .aboutus-bg-pink {
+            background-color: #ebe9fb;
+            border-radius: 50px;
+            margin-top: 70px;
+            padding-block:85px;
+            display: flex;
+            justify-content: center;
+
+            .col-12{
+                display: flex;
+            }
+            .aboutus-content{
+                min-width: 355px;
+                margin-top: 50px;
+                order: 2;
+            }
+
+            .section-title {
+                margin-top: 15px;
+                line-height: 40px;
+                span{
+                    color:black;
+                }
+            }
+
+            .primary-btn{
+                margin-top: 35px;
+            }
+
+            .about{
+                order: 1;
+                img{
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+
+    .last-sectionlist {
+        padding:160px 125px;
+        background-color: white;
+        border-radius: 0 0 50px 50px;
+
+        .section-title{
+            line-height: 60px;
+            text-align: center;
+            display: flex;
+            margin-inline: auto;
+            flex-direction: column;
+            max-width: 575px;
+        }
+
+        .benefit-list {
+            display: flex;
+            flex-direction: row;
+            margin-top: 60px;
+            gap:100px;
+        }
+
+        .benefit-items{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            :nth-of-type(3){
+                margin-top:0;
+            }
+
+            .job-image {
+                border-radius: 100%;
+                background-color: #ebe9fb;
+                width: 67px;
+                height: 67px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+
+            .small-title {
+                color: #3a337c;
+                line-height: 26px;
+                font-weight: 600;
+                min-width: 190px;
+                text-align: center;
+
+            }
+            .html-content {
+                margin-top: 5px;
+                max-width: 325px;
+                text-align: center;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .last-sectionlist{
+            padding-inline:0;
+            background-color: white;
+            border-radius: 0;
+            padding-block: 105px;
+
+            .section-title{
+                line-height: 40px;
+                text-align: center;
+                display: flex;
+                margin-inline: auto;
+                flex-direction: column;
+                max-width: 350px;
+            }
+
+            .benefit-list {
+                display: flex;
+                flex-direction: column;
+                margin-top: 70px;
+            }
+
+            .benefit-items{
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                :nth-of-type(3){
+                    margin-top:0;
+                }
+
+                .job-image {
+                    border-radius: 100%;
+                    background-color: #ebe9fb;
+                    width: 67px;
+                    height: 67px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                }
+
+                .small-title {
+                    color: #3a337c;
+                    line-height: 26px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    min-width: 190px;
+                    text-align: center;
+                }
+
+                .html-content p{
+                    margin-top: 5px;
+                    max-width: 325px;
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+
+}

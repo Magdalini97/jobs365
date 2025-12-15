@@ -17,6 +17,7 @@
     "dependencies": {
         "aos": "^2.3.4",
         "bootstrap": "^5.3.8",
+        "masonry-layout": "^4.2.2",
         "sass": "^1.95.1"
     }
 }

@@ -5,10 +5,10 @@
                 <a href="/" class="header-logo"><img src="/images/365jobs.png" alt="logo"></a>
 
                 <div class="navbar">
-                    <a href="/positions" title="Positions">Positions</a>
+                    <a href="/positionspage" title="Positions">Positions</a>
                     <a href="/services" title="Services">Services</a>
-                    <a href="/aboutus" title="About us">About us</a>
-                    <a href="/blog" title="News">News</a>
+                    <a href="/aboutuspage" title="About us">About us</a>
+                    <a href="/newspage" title="News">News</a>
                     <a href="/contact" title="Contact">Contact</a>
                 </div>
 
@@ -32,9 +32,9 @@
 
         <div class="sidebar">
             <div class="navbar">
-                <a href="/positions" title="Positions">Positions</a>
+                <a href="/positionspage" title="Positions">Positions</a>
                 <a href="/services" title="Services">Services</a>
-                <a href="/aboutus" title="About us">About us</a>
+                <a href="/aboutuspage" title="About us">About us</a>
                 <a href="/blog" title="News">News</a>
                 <a href="/contact" title="Contact">Contact</a>
             </div>

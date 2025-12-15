@@ -169,15 +169,20 @@
                 max-width: 320px;
             }
 
-            .swiper-wrapper {
+            .positions-swiper{
+                display: flex;
+                flex-direction: column;
+            }
+
+            /*.swiper-wrapper {
                 display: flex;
 
                 flex-direction: column;
                // grid-template-columns:auto auto;
-        
+
                 gap:20px;
                 width: unset;
-            }
+            }*/
 
             .swiper-slide:nth-child(odd) {
                 margin-top: 0;
